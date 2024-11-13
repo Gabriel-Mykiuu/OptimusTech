@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cinza-escuro: #3A404E;
+    --cinza-claro: #667085;
+    --braco: #ffffff;
+    --vermelho-vinho: #8E2424;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 32px;
+    align-items: center;
+    padding: 0.5em 3%;
+    margin: 0 5%;
+}
+
+.container_empresa {
+    display: flex; 
+    gap: 0.5em; 
+}
+
+.container_titulo {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+}
+
+.lista_menu {
+    display: flex;
+    gap: 2em;
+    list-style: none;
+    margin-right: 15em;
+}
+
+.container_lista_link {
+    text-decoration: none;
+    color: var(--cinza-claro);
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.container_botao_login {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: var(--cinza-claro);
+    padding: 0.7em 1em;
+}
+
+.container_botao_singup {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: var(--braco);
+    background-color: var(--vermelho-vinho);
+    padding: 0.7em 1em;
+    border-radius: 0.5em;
+}
