@@ -5,9 +5,10 @@
     --cinza-claro: #667085;
     --braco: #ffffff;
     --vermelho-vinho: #8E2424;
+    --azul-marinho: #101828;
 }
 
-.cabecalho {
+.container {
     display: flex;
     justify-content: space-between;
     padding: 12px 32px;
@@ -57,4 +58,30 @@
     background-color: var(--vermelho-vinho);
     padding: 0.7em 1em;
     border-radius: 0.5em;
+}
+
+.cabecalho {
+    text-align: center;
+    margin: 7em 21em;
+}
+
+.cabecalho_texto_sobre {
+    color: var(--vermelho-vinho);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cabecalho_texto_titulo {
+    color: var(--azul-marinho);
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.cabecalho_texto_paragrafo {
+    color: var(--cinza-claro);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
 }
