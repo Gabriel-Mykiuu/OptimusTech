@@ -85,3 +85,66 @@
     font-size: 20px;
     font-weight: 400;
 }
+
+.metricas_container {
+    display: flex;
+    padding: 0 6% 7% 6%;
+}
+
+.metricas {
+    padding: 0 2%;
+}
+
+.metricas_container_titulo {
+    font-family: "Inter", sans-serif;
+    font-weight: 600; 
+    font-size: 60px;
+    color: var(--vermelho-vinho);
+    margin: 15px 0;
+}
+
+.metricas_container_subtitulo {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--azul-marinho);
+    margin: 0;
+}
+
+.metricas_container_texto {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cinza-claro);
+}
+
+.procura {
+    text-align: center;
+    margin: 5% 0;
+}
+
+.procura_subtitulo {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vermelho-vinho);
+    background-color: #f5f0f0;
+    border-radius: 2em;
+    padding: 0.4em 0.8em;
+    margin: 0 45.5%;
+}
+
+.procura_titulo {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 600; 
+    color: var(--azul-marinho);
+}
+
+.procura_texto {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-claro);
+    margin-bottom: 5%;
+}
